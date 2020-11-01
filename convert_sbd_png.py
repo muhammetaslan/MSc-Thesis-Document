@@ -1,5 +1,10 @@
 """Convert .mat segmentation mask of SBD to .png"""
 
+"""
+run the script this command
+$python convert_sbd_png.py --inp "/content/drive/My Drive/1-stage-wseg/data/sbd/benchmark_RELEASE/dataset/cls" --out 
+"/content/drive/My Drive/1-stage-wseg/data/sbd/benchmark_RELEASE/dataset/cls_png"
+"""
 import os
 import sys
 import glob
